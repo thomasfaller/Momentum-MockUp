@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-image: url('https://unsplash.it/1500?random');
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-wrapper {
+}
+
+h1 {
+  font-size: 20rem;
+  font-family: roboto;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: roboto;
+}
+
+input[type="text"] {
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    color: white;
+}
